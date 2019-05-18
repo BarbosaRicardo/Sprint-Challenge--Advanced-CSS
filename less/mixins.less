@@ -1,9 +1,17 @@
 // Mixins Here
 
 .background(){
-    background: dodgerblue;
+    background: lightgray;
 }
 
-.display-flex(){
-    
+.display-mixin(){
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up(@width, @height, @color){
+    width: @width;
+    height: @height;
+    color: @color;
 }
