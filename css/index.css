@@ -4,9 +4,9 @@
   font-size: 3.2rem;
 }
 .home .intro h3 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #23293B;
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 .home .intro p {
   padding: 0 15px;
@@ -38,10 +38,11 @@
   margin-top: 11px;
   font-family: 'Russo One', sans-serif;
   color: #23293B;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 .home .visit-planets p {
   margin-top: 13px;
+  font-family: 'Ubuntu', sans-serif;
 }
 .home .walk {
   margin-top: 60px;
@@ -57,10 +58,11 @@
   margin-bottom: 10px;
   font-family: 'Russo One', sans-serif;
   color: #23293B;
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+  font-family: 'Ubuntu', sans-serif;
 }
 .home .walk .walk-text .btn {
   width: 140px;
@@ -71,7 +73,8 @@
   background: black;
   text-align: center;
   padding: 5px 0;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 .home .walk .walk-text .btn:hover {
   width: 140px;
@@ -106,18 +109,17 @@
     margin: 0;
   }
 }
-.home .walk .footer {
-  width: 100%;
-}
 footer {
   color: #22283B;
+  font-family: 'Ubuntu', sans-serif;
   background: #f4f4f4;
   padding: 20px 0;
-  border: 1px double #e0e0e0;
+  border: 80px double red;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .nav-top {
   display: flex;
